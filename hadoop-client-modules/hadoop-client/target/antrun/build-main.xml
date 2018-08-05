@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main" if="tar">
+  <echo file="/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client/target/dist-maketar.sh">cd &quot;/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client/target&quot;
+                      tar cf - hadoop-client-3.0.2 | gzip &gt; hadoop-client-3.0.2.tar.gz</echo>
+  <exec failonerror="true" dir="/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client/target" executable="bash">
+    <arg line="./dist-maketar.sh"/>
+  </exec>
+</target>
+</project>

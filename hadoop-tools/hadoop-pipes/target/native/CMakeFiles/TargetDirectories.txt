@@ -1,0 +1,8 @@
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/rebuild_cache.dir
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/edit_cache.dir
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooputils.dir
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/pipes-sort.dir
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooppipes.dir
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/wordcount-nopipe.dir
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/wordcount-part.dir
+/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/wordcount-simple.dir
