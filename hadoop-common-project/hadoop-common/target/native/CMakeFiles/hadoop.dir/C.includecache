@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c
 exception.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.h
 jni.h
 -
 stdio.h
@@ -18,17 +18,17 @@ stdlib.h
 string.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.h
 jni.h
 -
 stdarg.h
 -
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org_apache_hadoop.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c
 org_apache_hadoop_crypto.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop_crypto.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop_crypto.h
 stdio.h
 -
 stdlib.h
@@ -36,17 +36,17 @@ stdlib.h
 string.h
 -
 org_apache_hadoop_crypto_OpensslCipher.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop_crypto_OpensslCipher.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop_crypto_OpensslCipher.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop_crypto.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop_crypto.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/org_apache_hadoop.h
 dlfcn.h
 -
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/config.h
 winutils.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/winutils.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/winutils.h
 openssl/aes.h
 -
 openssl/evp.h
@@ -54,9 +54,9 @@ openssl/evp.h
 openssl/err.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c
 org_apache_hadoop_crypto_random.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop_crypto_random.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop_crypto_random.h
 stdio.h
 -
 stdlib.h
@@ -76,17 +76,17 @@ pthread_np.h
 windows.h
 -
 org_apache_hadoop_crypto_random_OpensslSecureRandom.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop_crypto_random_OpensslSecureRandom.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop_crypto_random_OpensslSecureRandom.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop_crypto_random.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop_crypto_random.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/org_apache_hadoop.h
 dlfcn.h
 -
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/config.h
 winutils.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/winutils.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/winutils.h
 openssl/crypto.h
 -
 openssl/engine.h
@@ -96,29 +96,29 @@ openssl/rand.h
 openssl/err.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop.h
 org_apache_hadoop_io_compress_lz4_Lz4Compressor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop_io_compress_lz4_Lz4Compressor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop_io_compress_lz4_Lz4Compressor.h
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/config.h
 lz4.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
 lz4hc.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop.h
 org_apache_hadoop_io_compress_lz4_Lz4Decompressor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop_io_compress_lz4_Lz4Decompressor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/org_apache_hadoop_io_compress_lz4_Lz4Decompressor.h
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/config.h
 lz4.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c
 stdlib.h
 -
 endian.h
@@ -130,13 +130,13 @@ stdlib.h
 string.h
 -
 lz4.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
 stdint.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c
 stdlib.h
 -
 string.h
@@ -148,15 +148,15 @@ endian.h
 intrin.h
 -
 lz4hc.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.h
 lz4.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.h
 stdint.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c
 stdio.h
 -
 stdlib.h
@@ -166,17 +166,17 @@ string.h
 dlfcn.h
 -
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/config.h
 org_apache_hadoop_io_compress_zlib.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib.h
 org_apache_hadoop_io_compress_zlib_ZlibCompressor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib_ZlibCompressor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib_ZlibCompressor.h
 winutils.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/winutils.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/winutils.h
 Strsafe.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c
 stdio.h
 -
 stdlib.h
@@ -186,17 +186,17 @@ string.h
 dlfcn.h
 -
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/config.h
 org_apache_hadoop_io_compress_zlib.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib.h
 org_apache_hadoop_io_compress_zlib_ZlibDecompressor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib_ZlibDecompressor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib_ZlibDecompressor.h
 Strsafe.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop_io_compress_zlib.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/org_apache_hadoop.h
 config.h
 -
 stddef.h
@@ -216,15 +216,15 @@ zlib.h
 zconf.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
 org_apache_hadoop_io_nativeio_NativeIO.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop_io_nativeio_NativeIO.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop_io_nativeio_NativeIO.h
 org_apache_hadoop_io_nativeio_NativeIO_POSIX.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop_io_nativeio_NativeIO_POSIX.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop_io_nativeio_NativeIO_POSIX.h
 exception.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/exception.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/exception.h
 assert.h
 -
 errno.h
@@ -262,29 +262,29 @@ sys/types.h
 unistd.h
 -
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/config.h
 assert.h
 -
 Windows.h
 -
 winutils.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/winutils.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/winutils.h
 file_descriptor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
 errno_enum.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
 exception.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/exception.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/exception.h
 file_descriptor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
 org_apache_hadoop_io_nativeio_SharedFileDescriptorFactory.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop_io_nativeio_SharedFileDescriptorFactory.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop_io_nativeio_SharedFileDescriptorFactory.h
 dirent.h
 -
 errno.h
@@ -308,7 +308,7 @@ sys/types.h
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c
 assert.h
 -
 errno.h
@@ -316,37 +316,37 @@ errno.h
 jni.h
 -
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.h
 jni.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c
 jni.h
 -
 file_descriptor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.h
 jni.h
 -
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/org_apache_hadoop.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/config.h
 exception.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/exception.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/exception.h
 org/apache/hadoop/io/nativeio/file_descriptor.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org/apache/hadoop/io/nativeio/file_descriptor.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org/apache/hadoop/io/nativeio/file_descriptor.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop.h
 org_apache_hadoop_net_unix_DomainSocket.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop_net_unix_DomainSocket.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop_net_unix_DomainSocket.h
 errno.h
 -
 fcntl.h
@@ -380,15 +380,15 @@ sys/un.h
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/config.h
 exception.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/exception.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/exception.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop.h
 org_apache_hadoop_net_unix_DomainSocketWatcher.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop_net_unix_DomainSocketWatcher.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/org_apache_hadoop_net_unix_DomainSocketWatcher.h
 errno.h
 -
 fcntl.h
@@ -414,7 +414,7 @@ sys/types.h
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c
 jni.h
 -
 sys/types.h
@@ -444,17 +444,17 @@ pwd.h
 string.h
 -
 exception.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/exception.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/exception.h
 org_apache_hadoop_security_JniBasedUnixGroupsMapping.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop_security_JniBasedUnixGroupsMapping.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop_security_JniBasedUnixGroupsMapping.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop.h
 hadoop_group_info.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.h
 hadoop_user_info.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c
 jni.h
 -
 sys/types.h
@@ -486,13 +486,13 @@ string.h
 netdb.h
 -
 org_apache_hadoop_security_JniBasedUnixGroupsNetgroupMapping.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop_security_JniBasedUnixGroupsNetgroupMapping.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop_security_JniBasedUnixGroupsNetgroupMapping.h
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/org_apache_hadoop.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c
 hadoop_group_info.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.h
 errno.h
 -
 grp.h
@@ -510,15 +510,15 @@ string.h
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.h
 grp.h
 -
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c
 hadoop_user_info.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.h
 errno.h
 -
 grp.h
@@ -536,29 +536,29 @@ string.h
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.h
 pwd.h
 -
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop.h
 dlfcn.h
 -
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/config.h
 winutils.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/winutils.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/winutils.h
 jni.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop.h
 org_apache_hadoop_util_NativeCrc32.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop_util_NativeCrc32.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop_util_NativeCrc32.h
 assert.h
 -
 stdlib.h
@@ -574,15 +574,15 @@ arpa/inet.h
 unistd.h
 -
 config.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/config.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/config.h
 gcc_optimizations.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
 bulk_crc32.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c
 org_apache_hadoop.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/org_apache_hadoop.h
 assert.h
 -
 errno.h
@@ -594,39 +594,39 @@ arpa/inet.h
 unistd.h
 -
 crc32_zlib_polynomial_tables.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32_zlib_polynomial_tables.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32_zlib_polynomial_tables.h
 crc32c_tables.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32c_tables.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32c_tables.h
 bulk_crc32.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
 gcc_optimizations.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
 stdint.h
 -
 unistd.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c
 assert.h
 -
 stddef.h
 -
 bulk_crc32.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.h
 gcc_optimizations.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
 gcc_optimizations.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32_zlib_polynomial_tables.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32_zlib_polynomial_tables.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32c_tables.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/crc32c_tables.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/gcc_optimizations.h
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org_apache_hadoop.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org_apache_hadoop.h
 config.h
 -
 dlfcn.h

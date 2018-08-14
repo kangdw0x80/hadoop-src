@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/expect.h
+/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/expect.h
 inttypes.h
 -
 stdio.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/native_mini_dfs.h
+/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/native_mini_dfs.h
 jni.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_native_mini_dfs.c
+/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_native_mini_dfs.c
 expect.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/expect.h
+/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/expect.h
 native_mini_dfs.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/native_mini_dfs.h
+/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/native_mini_dfs.h
 errno.h
 -
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests
+# Install script for directory: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

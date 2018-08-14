@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
 
 # Include any dependencies generated for this target.
 include main/native/libhdfs-tests/CMakeFiles/test_htable.dir/depend.make
@@ -58,30 +58,30 @@ include main/native/libhdfs-tests/CMakeFiles/test_htable.dir/progress.make
 include main/native/libhdfs-tests/CMakeFiles/test_htable.dir/flags.make
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o: main/native/libhdfs-tests/CMakeFiles/test_htable.dir/flags.make
-main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
+main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c > CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c > CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.i
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c -o CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c -o CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.s
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o: main/native/libhdfs-tests/CMakeFiles/test_htable.dir/flags.make
-main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_htable.dir/test_htable.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c
+main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_htable.dir/test_htable.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_htable.dir/test_htable.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c > CMakeFiles/test_htable.dir/test_htable.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c > CMakeFiles/test_htable.dir/test_htable.c.i
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_htable.dir/test_htable.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c -o CMakeFiles/test_htable.dir/test_htable.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_htable.c -o CMakeFiles/test_htable.dir/test_htable.c.s
 
 # Object files for target test_htable
 test_htable_OBJECTS = \
@@ -95,8 +95,8 @@ main/native/libhdfs-tests/test_htable: main/native/libhdfs-tests/CMakeFiles/test
 main/native/libhdfs-tests/test_htable: main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o
 main/native/libhdfs-tests/test_htable: main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make
 main/native/libhdfs-tests/test_htable: main/native/libhdfs-tests/CMakeFiles/test_htable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test_htable"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_htable.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test_htable"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_htable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build: main/native/libhdfs-tests/test_htable
@@ -104,10 +104,10 @@ main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build: main/native/libhdfs-
 .PHONY : main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/clean:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && $(CMAKE_COMMAND) -P CMakeFiles/test_htable.dir/cmake_clean.cmake
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests && $(CMAKE_COMMAND) -P CMakeFiles/test_htable.dir/cmake_clean.cmake
 .PHONY : main/native/libhdfs-tests/CMakeFiles/test_htable.dir/clean
 
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/depend:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests/CMakeFiles/test_htable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests/CMakeFiles/test_htable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : main/native/libhdfs-tests/CMakeFiles/test_htable.dir/depend
 

@@ -235,11 +235,11 @@
                     </transformer>
                     <transformer>
                       <resource>META-INF/LICENSE.txt</resource>
-                      <file>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-runtime/../../LICENSE.txt</file>
+                      <file>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-runtime/../../LICENSE.txt</file>
                     </transformer>
                     <transformer>
                       <resource>META-INF/NOTICE.txt</resource>
-                      <file>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-runtime/../../NOTICE.txt</file>
+                      <file>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-runtime/../../NOTICE.txt</file>
                     </transformer>
                     <transformer>
                       <resource>META-INF/jboss-beans.xml</resource>
@@ -281,7 +281,7 @@
                   </includes>
                   <canUpdateCopyright>false</canUpdateCopyright>
                   <roots>
-                    <root>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-runtime</root>
+                    <root>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-runtime</root>
                   </roots>
                 </configuration>
               </execution>
@@ -289,7 +289,7 @@
             <configuration>
               <canUpdateCopyright>false</canUpdateCopyright>
               <roots>
-                <root>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-runtime</root>
+                <root>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-runtime</root>
               </roots>
             </configuration>
           </plugin>

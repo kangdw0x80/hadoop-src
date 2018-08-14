@@ -6,5 +6,5 @@ CXX_FLAGS =  -g -O2 -Wall -pthread -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api -I/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api -I/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src 
+CXX_INCLUDES = -I/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api -I/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api -I/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src 
 

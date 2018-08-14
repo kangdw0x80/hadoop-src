@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
 
 # Include any dependencies generated for this target.
 include main/native/libhdfs/CMakeFiles/hdfs.dir/depend.make
@@ -58,82 +58,82 @@ include main/native/libhdfs/CMakeFiles/hdfs.dir/progress.make
 include main/native/libhdfs/CMakeFiles/hdfs.dir/flags.make
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/exception.c.o: main/native/libhdfs/CMakeFiles/hdfs.dir/flags.make
-main/native/libhdfs/CMakeFiles/hdfs.dir/exception.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/exception.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/exception.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c
+main/native/libhdfs/CMakeFiles/hdfs.dir/exception.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/exception.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/exception.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/exception.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdfs.dir/exception.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c > CMakeFiles/hdfs.dir/exception.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c > CMakeFiles/hdfs.dir/exception.c.i
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/exception.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdfs.dir/exception.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c -o CMakeFiles/hdfs.dir/exception.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/exception.c -o CMakeFiles/hdfs.dir/exception.c.s
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/jni_helper.c.o: main/native/libhdfs/CMakeFiles/hdfs.dir/flags.make
-main/native/libhdfs/CMakeFiles/hdfs.dir/jni_helper.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/jni_helper.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/jni_helper.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c
+main/native/libhdfs/CMakeFiles/hdfs.dir/jni_helper.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/jni_helper.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/jni_helper.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/jni_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdfs.dir/jni_helper.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c > CMakeFiles/hdfs.dir/jni_helper.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c > CMakeFiles/hdfs.dir/jni_helper.c.i
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/jni_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdfs.dir/jni_helper.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c -o CMakeFiles/hdfs.dir/jni_helper.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/jni_helper.c -o CMakeFiles/hdfs.dir/jni_helper.c.s
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/hdfs.c.o: main/native/libhdfs/CMakeFiles/hdfs.dir/flags.make
-main/native/libhdfs/CMakeFiles/hdfs.dir/hdfs.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/hdfs.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/hdfs.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c
+main/native/libhdfs/CMakeFiles/hdfs.dir/hdfs.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/hdfs.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/hdfs.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/hdfs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdfs.dir/hdfs.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c > CMakeFiles/hdfs.dir/hdfs.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c > CMakeFiles/hdfs.dir/hdfs.c.i
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/hdfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdfs.dir/hdfs.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c -o CMakeFiles/hdfs.dir/hdfs.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/hdfs.c -o CMakeFiles/hdfs.dir/hdfs.c.s
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/common/htable.c.o: main/native/libhdfs/CMakeFiles/hdfs.dir/flags.make
-main/native/libhdfs/CMakeFiles/hdfs.dir/common/htable.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/common/htable.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/common/htable.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
+main/native/libhdfs/CMakeFiles/hdfs.dir/common/htable.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/common/htable.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/common/htable.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/common/htable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdfs.dir/common/htable.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c > CMakeFiles/hdfs.dir/common/htable.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c > CMakeFiles/hdfs.dir/common/htable.c.i
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/common/htable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdfs.dir/common/htable.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c -o CMakeFiles/hdfs.dir/common/htable.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/common/htable.c -o CMakeFiles/hdfs.dir/common/htable.c.s
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/mutexes.c.o: main/native/libhdfs/CMakeFiles/hdfs.dir/flags.make
-main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/mutexes.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/mutexes.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/os/posix/mutexes.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c
+main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/mutexes.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/mutexes.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/os/posix/mutexes.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/mutexes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdfs.dir/os/posix/mutexes.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c > CMakeFiles/hdfs.dir/os/posix/mutexes.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c > CMakeFiles/hdfs.dir/os/posix/mutexes.c.i
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/mutexes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdfs.dir/os/posix/mutexes.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c -o CMakeFiles/hdfs.dir/os/posix/mutexes.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/mutexes.c -o CMakeFiles/hdfs.dir/os/posix/mutexes.c.s
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.o: main/native/libhdfs/CMakeFiles/hdfs.dir/flags.make
-main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c
+main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c > CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c > CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.i
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c -o CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs/os/posix/thread_local_storage.c -o CMakeFiles/hdfs.dir/os/posix/thread_local_storage.c.s
 
 # Object files for target hdfs
 hdfs_OBJECTS = \
@@ -156,9 +156,9 @@ native/target/usr/local/lib/libhdfs.so.0.0.0: main/native/libhdfs/CMakeFiles/hdf
 native/target/usr/local/lib/libhdfs.so.0.0.0: main/native/libhdfs/CMakeFiles/hdfs.dir/build.make
 native/target/usr/local/lib/libhdfs.so.0.0.0: /usr/lib/jvm/java-1.8.0-openjdk/jre/lib/amd64/server/libjvm.so
 native/target/usr/local/lib/libhdfs.so.0.0.0: main/native/libhdfs/CMakeFiles/hdfs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library ../../../native/target/usr/local/lib/libhdfs.so"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hdfs.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../native/target/usr/local/lib/libhdfs.so.0.0.0 ../../../native/target/usr/local/lib/libhdfs.so.0.0.0 ../../../native/target/usr/local/lib/libhdfs.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library ../../../native/target/usr/local/lib/libhdfs.so"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hdfs.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../native/target/usr/local/lib/libhdfs.so.0.0.0 ../../../native/target/usr/local/lib/libhdfs.so.0.0.0 ../../../native/target/usr/local/lib/libhdfs.so
 
 native/target/usr/local/lib/libhdfs.so: native/target/usr/local/lib/libhdfs.so.0.0.0
 	@$(CMAKE_COMMAND) -E touch_nocreate native/target/usr/local/lib/libhdfs.so
@@ -169,10 +169,10 @@ main/native/libhdfs/CMakeFiles/hdfs.dir/build: native/target/usr/local/lib/libhd
 .PHONY : main/native/libhdfs/CMakeFiles/hdfs.dir/build
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/clean:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -P CMakeFiles/hdfs.dir/cmake_clean.cmake
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -P CMakeFiles/hdfs.dir/cmake_clean.cmake
 .PHONY : main/native/libhdfs/CMakeFiles/hdfs.dir/clean
 
 main/native/libhdfs/CMakeFiles/hdfs.dir/depend:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs/CMakeFiles/hdfs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs/CMakeFiles/hdfs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : main/native/libhdfs/CMakeFiles/hdfs.dir/depend
 

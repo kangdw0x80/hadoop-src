@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests/CMakeFiles/progress.marks
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles 0
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs-tests/CMakeFiles/progress.marks
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/clean
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/preinstall
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/preinstall
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/rule:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/rule
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/CMakeFiles/test_htable.dir/rule
 .PHONY : main/native/libhdfs-tests/CMakeFiles/test_htable.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ test_htable: main/native/libhdfs-tests/CMakeFiles/test_htable.dir/rule
 
 # fast build rule for target.
 test_htable/fast:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build
 .PHONY : test_htable/fast
 
 # Convenience name for target.
 main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/rule:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/rule
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/rule
 .PHONY : main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/rule
 
 # Convenience name for target.
@@ -148,12 +148,12 @@ test_native_mini_dfs: main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.
 
 # fast build rule for target.
 test_native_mini_dfs/fast:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build
 .PHONY : test_native_mini_dfs/fast
 
 # Convenience name for target.
 main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/rule:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/rule
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f CMakeFiles/Makefile2 main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/rule
 .PHONY : main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/rule
 
 # Convenience name for target.
@@ -163,7 +163,7 @@ native_mini_dfs: main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/rule
 
 # fast build rule for target.
 native_mini_dfs/fast:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build
 .PHONY : native_mini_dfs/fast
 
 __/libhdfs/common/htable.o: __/libhdfs/common/htable.c.o
@@ -172,8 +172,8 @@ __/libhdfs/common/htable.o: __/libhdfs/common/htable.c.o
 
 # target to build an object file
 __/libhdfs/common/htable.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/common/htable.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/common/htable.c.o
 .PHONY : __/libhdfs/common/htable.c.o
 
 __/libhdfs/common/htable.i: __/libhdfs/common/htable.c.i
@@ -182,8 +182,8 @@ __/libhdfs/common/htable.i: __/libhdfs/common/htable.c.i
 
 # target to preprocess a source file
 __/libhdfs/common/htable.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.i
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/common/htable.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/common/htable.c.i
 .PHONY : __/libhdfs/common/htable.c.i
 
 __/libhdfs/common/htable.s: __/libhdfs/common/htable.c.s
@@ -192,8 +192,8 @@ __/libhdfs/common/htable.s: __/libhdfs/common/htable.c.s
 
 # target to generate assembly for a file
 __/libhdfs/common/htable.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.s
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/common/htable.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/__/libhdfs/common/htable.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/common/htable.c.s
 .PHONY : __/libhdfs/common/htable.c.s
 
 __/libhdfs/exception.o: __/libhdfs/exception.c.o
@@ -202,7 +202,7 @@ __/libhdfs/exception.o: __/libhdfs/exception.c.o
 
 # target to build an object file
 __/libhdfs/exception.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/exception.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/exception.c.o
 .PHONY : __/libhdfs/exception.c.o
 
 __/libhdfs/exception.i: __/libhdfs/exception.c.i
@@ -211,7 +211,7 @@ __/libhdfs/exception.i: __/libhdfs/exception.c.i
 
 # target to preprocess a source file
 __/libhdfs/exception.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/exception.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/exception.c.i
 .PHONY : __/libhdfs/exception.c.i
 
 __/libhdfs/exception.s: __/libhdfs/exception.c.s
@@ -220,7 +220,7 @@ __/libhdfs/exception.s: __/libhdfs/exception.c.s
 
 # target to generate assembly for a file
 __/libhdfs/exception.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/exception.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/exception.c.s
 .PHONY : __/libhdfs/exception.c.s
 
 __/libhdfs/jni_helper.o: __/libhdfs/jni_helper.c.o
@@ -229,7 +229,7 @@ __/libhdfs/jni_helper.o: __/libhdfs/jni_helper.c.o
 
 # target to build an object file
 __/libhdfs/jni_helper.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/jni_helper.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/jni_helper.c.o
 .PHONY : __/libhdfs/jni_helper.c.o
 
 __/libhdfs/jni_helper.i: __/libhdfs/jni_helper.c.i
@@ -238,7 +238,7 @@ __/libhdfs/jni_helper.i: __/libhdfs/jni_helper.c.i
 
 # target to preprocess a source file
 __/libhdfs/jni_helper.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/jni_helper.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/jni_helper.c.i
 .PHONY : __/libhdfs/jni_helper.c.i
 
 __/libhdfs/jni_helper.s: __/libhdfs/jni_helper.c.s
@@ -247,7 +247,7 @@ __/libhdfs/jni_helper.s: __/libhdfs/jni_helper.c.s
 
 # target to generate assembly for a file
 __/libhdfs/jni_helper.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/jni_helper.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/jni_helper.c.s
 .PHONY : __/libhdfs/jni_helper.c.s
 
 __/libhdfs/os/posix/mutexes.o: __/libhdfs/os/posix/mutexes.c.o
@@ -256,7 +256,7 @@ __/libhdfs/os/posix/mutexes.o: __/libhdfs/os/posix/mutexes.c.o
 
 # target to build an object file
 __/libhdfs/os/posix/mutexes.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/mutexes.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/mutexes.c.o
 .PHONY : __/libhdfs/os/posix/mutexes.c.o
 
 __/libhdfs/os/posix/mutexes.i: __/libhdfs/os/posix/mutexes.c.i
@@ -265,7 +265,7 @@ __/libhdfs/os/posix/mutexes.i: __/libhdfs/os/posix/mutexes.c.i
 
 # target to preprocess a source file
 __/libhdfs/os/posix/mutexes.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/mutexes.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/mutexes.c.i
 .PHONY : __/libhdfs/os/posix/mutexes.c.i
 
 __/libhdfs/os/posix/mutexes.s: __/libhdfs/os/posix/mutexes.c.s
@@ -274,7 +274,7 @@ __/libhdfs/os/posix/mutexes.s: __/libhdfs/os/posix/mutexes.c.s
 
 # target to generate assembly for a file
 __/libhdfs/os/posix/mutexes.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/mutexes.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/mutexes.c.s
 .PHONY : __/libhdfs/os/posix/mutexes.c.s
 
 __/libhdfs/os/posix/thread_local_storage.o: __/libhdfs/os/posix/thread_local_storage.c.o
@@ -283,7 +283,7 @@ __/libhdfs/os/posix/thread_local_storage.o: __/libhdfs/os/posix/thread_local_sto
 
 # target to build an object file
 __/libhdfs/os/posix/thread_local_storage.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/thread_local_storage.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/thread_local_storage.c.o
 .PHONY : __/libhdfs/os/posix/thread_local_storage.c.o
 
 __/libhdfs/os/posix/thread_local_storage.i: __/libhdfs/os/posix/thread_local_storage.c.i
@@ -292,7 +292,7 @@ __/libhdfs/os/posix/thread_local_storage.i: __/libhdfs/os/posix/thread_local_sto
 
 # target to preprocess a source file
 __/libhdfs/os/posix/thread_local_storage.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/thread_local_storage.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/thread_local_storage.c.i
 .PHONY : __/libhdfs/os/posix/thread_local_storage.c.i
 
 __/libhdfs/os/posix/thread_local_storage.s: __/libhdfs/os/posix/thread_local_storage.c.s
@@ -301,7 +301,7 @@ __/libhdfs/os/posix/thread_local_storage.s: __/libhdfs/os/posix/thread_local_sto
 
 # target to generate assembly for a file
 __/libhdfs/os/posix/thread_local_storage.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/thread_local_storage.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/__/libhdfs/os/posix/thread_local_storage.c.s
 .PHONY : __/libhdfs/os/posix/thread_local_storage.c.s
 
 native_mini_dfs.o: native_mini_dfs.c.o
@@ -310,7 +310,7 @@ native_mini_dfs.o: native_mini_dfs.c.o
 
 # target to build an object file
 native_mini_dfs.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/native_mini_dfs.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/native_mini_dfs.c.o
 .PHONY : native_mini_dfs.c.o
 
 native_mini_dfs.i: native_mini_dfs.c.i
@@ -319,7 +319,7 @@ native_mini_dfs.i: native_mini_dfs.c.i
 
 # target to preprocess a source file
 native_mini_dfs.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/native_mini_dfs.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/native_mini_dfs.c.i
 .PHONY : native_mini_dfs.c.i
 
 native_mini_dfs.s: native_mini_dfs.c.s
@@ -328,7 +328,7 @@ native_mini_dfs.s: native_mini_dfs.c.s
 
 # target to generate assembly for a file
 native_mini_dfs.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/native_mini_dfs.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/native_mini_dfs.dir/native_mini_dfs.c.s
 .PHONY : native_mini_dfs.c.s
 
 test_htable.o: test_htable.c.o
@@ -337,7 +337,7 @@ test_htable.o: test_htable.c.o
 
 # target to build an object file
 test_htable.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.o
 .PHONY : test_htable.c.o
 
 test_htable.i: test_htable.c.i
@@ -346,7 +346,7 @@ test_htable.i: test_htable.c.i
 
 # target to preprocess a source file
 test_htable.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.i
 .PHONY : test_htable.c.i
 
 test_htable.s: test_htable.c.s
@@ -355,7 +355,7 @@ test_htable.s: test_htable.c.s
 
 # target to generate assembly for a file
 test_htable.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_htable.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_htable.dir/test_htable.c.s
 .PHONY : test_htable.c.s
 
 test_native_mini_dfs.o: test_native_mini_dfs.c.o
@@ -364,7 +364,7 @@ test_native_mini_dfs.o: test_native_mini_dfs.c.o
 
 # target to build an object file
 test_native_mini_dfs.c.o:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/test_native_mini_dfs.c.o
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/test_native_mini_dfs.c.o
 .PHONY : test_native_mini_dfs.c.o
 
 test_native_mini_dfs.i: test_native_mini_dfs.c.i
@@ -373,7 +373,7 @@ test_native_mini_dfs.i: test_native_mini_dfs.c.i
 
 # target to preprocess a source file
 test_native_mini_dfs.c.i:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/test_native_mini_dfs.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/test_native_mini_dfs.c.i
 .PHONY : test_native_mini_dfs.c.i
 
 test_native_mini_dfs.s: test_native_mini_dfs.c.s
@@ -382,7 +382,7 @@ test_native_mini_dfs.s: test_native_mini_dfs.c.s
 
 # target to generate assembly for a file
 test_native_mini_dfs.c.s:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/test_native_mini_dfs.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(MAKE) -f main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/build.make main/native/libhdfs-tests/CMakeFiles/test_native_mini_dfs.dir/test_native_mini_dfs.c.s
 .PHONY : test_native_mini_dfs.c.s
 
 # Help Target
@@ -432,6 +432,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/wordcount-nopipe.cc
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/wordcount-nopipe.cc
 hadoop/Pipes.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/Pipes.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/Pipes.hh
 hadoop/TemplateFactory.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/TemplateFactory.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/TemplateFactory.hh
 hadoop/StringUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/StringUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/StringUtils.hh
 hadoop/SerialUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/SerialUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/hadoop/SerialUtils.hh
 stdio.h
 -
 sys/types.h
@@ -22,23 +22,23 @@ sys/types.h
 sys/stat.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/Pipes.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/Pipes.hh
 std_string.i
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/std_string.i
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/std_string.i
 string
 -
 stdint.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/TemplateFactory.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/TemplateFactory.hh
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/SerialUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/SerialUtils.hh
 string
 -
 stdint.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/StringUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/StringUtils.hh
 stdint.h
 -
 string

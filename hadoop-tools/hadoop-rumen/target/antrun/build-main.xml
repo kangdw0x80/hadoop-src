@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <delete dir="/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-rumen/target/test-dir"/>
-  <mkdir dir="/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-rumen/target/test-dir"/>
-  <mkdir dir="/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-rumen/target/log"/>
+  <delete dir="/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-rumen/target/test-dir"/>
+  <mkdir dir="/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-rumen/target/test-dir"/>
+  <mkdir dir="/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-rumen/target/log"/>
 </target>
 </project>

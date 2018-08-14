@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/sort.cc" "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/pipes-sort.dir/main/native/examples/impl/sort.cc.o"
+  "/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/examples/impl/sort.cc" "/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/pipes-sort.dir/main/native/examples/impl/sort.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src"
+  "/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api"
+  "/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api"
+  "/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooppipes.dir/DependInfo.cmake"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooputils.dir/DependInfo.cmake"
+  "/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooppipes.dir/DependInfo.cmake"
+  "/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooputils.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -31,10 +31,10 @@ import static org.apache.hadoop.hdfs.client.HdfsClientConfigKeys.DeprecatedKeys;
 @InterfaceAudience.Private
 public class HdfsConfiguration extends Configuration {
   static {
-      // deprecationContext add 
+   // deprecationContext add 
     addDeprecatedKeys();
 
-    // adds the default resources
+  // adds the default resources
   //private static final CopyOnWriteArrayList<String> defaultResources =
     Configuration.addDefaultResource("hdfs-default.xml");
     Configuration.addDefaultResource("hdfs-site.xml");
@@ -43,9 +43,11 @@ public class HdfsConfiguration extends Configuration {
   public HdfsConfiguration() {
     super();
   }
-
+    /*
+     * kangdw-maybe: 확실하지는 않은데 loadDefaults 가 의미 하는게 default로 설정된 파일들을 읽어서설정할거냐 아니냐 인것으로 보임. 
+     * */ 
   public HdfsConfiguration(boolean loadDefaults) {
-    super(loadDefaults);
+    super(loadDefaults);    // Configuration 클래스의 REGISTRY (weak hashmap type)에 Configuration 객체를 put함 
   }
 
   public HdfsConfiguration(Configuration conf) {

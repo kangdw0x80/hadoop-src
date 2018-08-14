@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target
 
 # Include any dependencies generated for this target.
 include main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/depend.make
@@ -58,17 +58,17 @@ include main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/progress
 include main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/flags.make
 
 main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.o: main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/flags.make
-main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.o"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c
+main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.o: /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.o"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c
 
 main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.i"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c > CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.i
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c > CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.i
 
 main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.s"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c -o CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.s
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs-tests/test_libhdfs_ops.c -o CMakeFiles/test_libhdfs_ops_hdfs_static.dir/__/libhdfs-tests/test_libhdfs_ops.c.s
 
 # Object files for target test_libhdfs_ops_hdfs_static
 test_libhdfs_ops_hdfs_static_OBJECTS = \
@@ -82,8 +82,8 @@ main/native/libhdfs/test_libhdfs_ops_hdfs_static: main/native/libhdfs/CMakeFiles
 main/native/libhdfs/test_libhdfs_ops_hdfs_static: native/target/usr/local/lib/libhdfs.a
 main/native/libhdfs/test_libhdfs_ops_hdfs_static: /usr/lib/jvm/java-1.8.0-openjdk/jre/lib/amd64/server/libjvm.so
 main/native/libhdfs/test_libhdfs_ops_hdfs_static: main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test_libhdfs_ops_hdfs_static"
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_libhdfs_ops_hdfs_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test_libhdfs_ops_hdfs_static"
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_libhdfs_ops_hdfs_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/build: main/native/libhdfs/test_libhdfs_ops_hdfs_static
@@ -91,10 +91,10 @@ main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/build: main/nati
 .PHONY : main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/build
 
 main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/clean:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -P CMakeFiles/test_libhdfs_ops_hdfs_static.dir/cmake_clean.cmake
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs && $(CMAKE_COMMAND) -P CMakeFiles/test_libhdfs_ops_hdfs_static.dir/cmake_clean.cmake
 .PHONY : main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/clean
 
 main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/depend:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs /home/kangdw/devel/hadoop-3.0.2-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/src/main/native/libhdfs /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs /home/kangdw/devel/hadoop-src/hadoop-hdfs-project/hadoop-hdfs-native-client/target/main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : main/native/libhdfs/CMakeFiles/test_libhdfs_ops_hdfs_static.dir/depend
 

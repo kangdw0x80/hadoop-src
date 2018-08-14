@@ -310,11 +310,11 @@
                     </transformer>
                     <transformer>
                       <resource>META-INF/LICENSE.txt</resource>
-                      <file>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-minicluster/../../LICENSE.txt</file>
+                      <file>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-minicluster/../../LICENSE.txt</file>
                     </transformer>
                     <transformer>
                       <resource>META-INF/NOTICE.txt</resource>
-                      <file>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-minicluster/../../NOTICE.txt</file>
+                      <file>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-minicluster/../../NOTICE.txt</file>
                     </transformer>
                   </transformers>
                 </configuration>
@@ -347,7 +347,7 @@
                   </includes>
                   <canUpdateCopyright>false</canUpdateCopyright>
                   <roots>
-                    <root>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-minicluster</root>
+                    <root>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-minicluster</root>
                   </roots>
                 </configuration>
               </execution>
@@ -355,7 +355,7 @@
             <configuration>
               <canUpdateCopyright>false</canUpdateCopyright>
               <roots>
-                <root>/home/kangdw/devel/hadoop-3.0.2-src/hadoop-client-modules/hadoop-client-minicluster</root>
+                <root>/home/kangdw/devel/hadoop-src/hadoop-client-modules/hadoop-client-minicluster</root>
               </roots>
             </configuration>
           </plugin>

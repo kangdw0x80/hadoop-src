@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/HadoopCommon.cmake"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/HadoopJNI.cmake"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/src/CMakeLists.txt"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/src/config.h.cmake"
-  "/home/kangdw/devel/hadoop-3.0.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/src/main/native/test.sh"
+  "/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/HadoopCommon.cmake"
+  "/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/HadoopJNI.cmake"
+  "/home/kangdw/devel/hadoop-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/src/CMakeLists.txt"
+  "/home/kangdw/devel/hadoop-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/src/config.h.cmake"
+  "/home/kangdw/devel/hadoop-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-nativetask/src/main/native/test.sh"
   "CMakeFiles/3.11.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.11.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.11.2/CMakeSystem.cmake"

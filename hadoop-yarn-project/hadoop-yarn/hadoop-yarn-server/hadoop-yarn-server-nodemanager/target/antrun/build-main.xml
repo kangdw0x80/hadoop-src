@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <copy todir="/home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/test/" overwrite="true">
-    <fileset dir="/home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/main/native/container-executor/resources/test"/>
+  <copy todir="/home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/test/" overwrite="true">
+    <fileset dir="/home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/main/native/container-executor/resources/test"/>
   </copy>
 </target>
 </project>

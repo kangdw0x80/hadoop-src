@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc
 gtest/gtest.h
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest/gtest.h
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest/gtest.h
 ctype.h
 -
 math.h
@@ -192,7 +192,7 @@ ostream
 string
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/../../../../../hadoop-common-project/hadoop-common/src/main/native/gtest/include/gtest/gtest.h
+/home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/../../../../../hadoop-common-project/hadoop-common/src/main/native/gtest/include/gtest/gtest.h
 limits
 -
 ostream

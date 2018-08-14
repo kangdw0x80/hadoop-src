@@ -375,6 +375,22 @@ public class GetConf extends Configured implements Tool {
          *          -> 
          */
         System.out.println("GetConf Class main");
+        
+        /**
+         *  여기서는 new HdfsConfiguration 
+         *      -> new Configuration 
+         *          -> REGISTRY.put(Configuration)  으로 마무리 
+         *  
+         *  new GetConf
+         *      -> GetConf(conf, System.out, System.err);
+         *          ->  super(conf);
+         *              -> public Configuration(Configuration other) 
+         *                  일단 Configuration 객체로 부터 복붙 작업. 
+         *                  지금의 경우, HdfsConfiguration 으로 생성된 객체겠지 
+         *          ->  this.out = out;
+         *          ->  this.err = err;
+         *
+         */
         int res = ToolRunner.run(new GetConf(new HdfsConfiguration()), args);
         /*
          *  HdfsConfiguration->super -> Configration Class Constructor

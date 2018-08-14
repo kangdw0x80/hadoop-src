@@ -1,5 +1,5 @@
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/rebuild_cache.dir
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/edit_cache.dir
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/test_bulk_crc32.dir
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/hadoop_static.dir
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/hadoop.dir
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/rebuild_cache.dir
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/edit_cache.dir
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/test_bulk_crc32.dir
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/hadoop_static.dir
+/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/hadoop.dir

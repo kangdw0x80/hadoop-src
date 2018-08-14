@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/SerialUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/SerialUtils.hh
 string
 -
 stdint.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/StringUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/StringUtils.hh
 stdint.h
 -
 string
@@ -20,11 +20,11 @@ string
 vector
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc
 hadoop/SerialUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/SerialUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/SerialUtils.hh
 hadoop/StringUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/StringUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/StringUtils.hh
 errno.h
 -
 rpc/types.h
@@ -36,11 +36,11 @@ string
 string.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc
 hadoop/StringUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/StringUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/StringUtils.hh
 hadoop/SerialUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/SerialUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/hadoop/SerialUtils.hh
 errno.h
 -
 stdint.h

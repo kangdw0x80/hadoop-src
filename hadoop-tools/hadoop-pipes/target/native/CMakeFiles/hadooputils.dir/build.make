@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hadooputils.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/hadooputils.dir/progress.make
 include CMakeFiles/hadooputils.dir/flags.make
 
 CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.o: CMakeFiles/hadooputils.dir/flags.make
-CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.o -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc
+CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.o: /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.o -c /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc
 
 CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc > CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc > CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.i
 
 CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc -o CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/StringUtils.cc -o CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.cc.s
 
 CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o: CMakeFiles/hadooputils.dir/flags.make
-CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc
+CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o: /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o -c /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc
 
 CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc > CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc > CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.i
 
 CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc -o CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/impl/SerialUtils.cc -o CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.s
 
 # Object files for target hadooputils
 hadooputils_OBJECTS = \
@@ -95,7 +95,7 @@ libhadooputils.a: CMakeFiles/hadooputils.dir/main/native/utils/impl/StringUtils.
 libhadooputils.a: CMakeFiles/hadooputils.dir/main/native/utils/impl/SerialUtils.cc.o
 libhadooputils.a: CMakeFiles/hadooputils.dir/build.make
 libhadooputils.a: CMakeFiles/hadooputils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libhadooputils.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libhadooputils.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/hadooputils.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hadooputils.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/hadooputils.dir/clean:
 .PHONY : CMakeFiles/hadooputils.dir/clean
 
 CMakeFiles/hadooputils.dir/depend:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooputils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooputils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hadooputils.dir/depend
 

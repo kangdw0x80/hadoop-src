@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hadooppipes.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/hadooppipes.dir/progress.make
 include CMakeFiles/hadooppipes.dir/flags.make
 
 CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o: CMakeFiles/hadooppipes.dir/flags.make
-CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc
+CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o: /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o -c /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc
 
 CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc > CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc > CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.i
 
 CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc -o CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc -o CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.s
 
 # Object files for target hadooppipes
 hadooppipes_OBJECTS = \
@@ -80,7 +80,7 @@ hadooppipes_EXTERNAL_OBJECTS =
 libhadooppipes.a: CMakeFiles/hadooppipes.dir/main/native/pipes/impl/HadoopPipes.cc.o
 libhadooppipes.a: CMakeFiles/hadooppipes.dir/build.make
 libhadooppipes.a: CMakeFiles/hadooppipes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhadooppipes.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhadooppipes.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/hadooppipes.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hadooppipes.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/hadooppipes.dir/clean:
 .PHONY : CMakeFiles/hadooppipes.dir/clean
 
 CMakeFiles/hadooppipes.dir/depend:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooppipes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native /home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/target/native/CMakeFiles/hadooppipes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hadooppipes.dir/depend
 

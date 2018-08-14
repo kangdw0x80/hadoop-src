@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o"
+  "CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o"
   "libgtest.pdb"
   "libgtest.a"
 )

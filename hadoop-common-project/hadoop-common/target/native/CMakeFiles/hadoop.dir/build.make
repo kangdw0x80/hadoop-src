@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hadoop.dir/depend.make
@@ -58,303 +58,303 @@ include CMakeFiles/hadoop.dir/progress.make
 include CMakeFiles/hadoop.dir/flags.make
 
 CMakeFiles/hadoop.dir/main/native/src/exception.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/exception.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hadoop.dir/main/native/src/exception.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/exception.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c
+CMakeFiles/hadoop.dir/main/native/src/exception.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hadoop.dir/main/native/src/exception.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/exception.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c
 
 CMakeFiles/hadoop.dir/main/native/src/exception.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/exception.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c > CMakeFiles/hadoop.dir/main/native/src/exception.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c > CMakeFiles/hadoop.dir/main/native/src/exception.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/exception.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/exception.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c -o CMakeFiles/hadoop.dir/main/native/src/exception.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/exception.c -o CMakeFiles/hadoop.dir/main/native/src/exception.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Compressor.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/Lz4Decompressor.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/lz4/lz4hc.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/OpensslCipher.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/crypto/random/OpensslSecureRandom.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibCompressor.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/compress/zlib/ZlibDecompressor.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/NativeIO.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/errno_enum.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/file_descriptor.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/io/nativeio/SharedFileDescriptorFactory.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocket.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/net/unix/DomainSocketWatcher.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsMapping.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/JniBasedUnixGroupsNetgroupMapping.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_group_info.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_group_info.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/security/hadoop_user_info.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/security/hadoop_user_info.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCodeLoader.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/NativeCrc32.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/NativeCrc32.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32.c.s
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.o: CMakeFiles/hadoop.dir/flags.make
-CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.o: /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.o   -c /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c
+CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.o: /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.o"
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.o   -c /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.i
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c > CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.i
 
 CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.s
+	/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c -o CMakeFiles/hadoop.dir/main/native/src/org/apache/hadoop/util/bulk_crc32_x86.c.s
 
 # Object files for target hadoop
 hadoop_OBJECTS = \
@@ -411,7 +411,7 @@ target/usr/local/lib/libhadoop.so.1.0.0: CMakeFiles/hadoop.dir/main/native/src/o
 target/usr/local/lib/libhadoop.so.1.0.0: CMakeFiles/hadoop.dir/build.make
 target/usr/local/lib/libhadoop.so.1.0.0: /usr/lib/jvm/java-1.8.0-openjdk/jre/lib/amd64/server/libjvm.so
 target/usr/local/lib/libhadoop.so.1.0.0: CMakeFiles/hadoop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C shared library target/usr/local/lib/libhadoop.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C shared library target/usr/local/lib/libhadoop.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hadoop.dir/link.txt --verbose=$(VERBOSE)
 	$(CMAKE_COMMAND) -E cmake_symlink_library target/usr/local/lib/libhadoop.so.1.0.0 target/usr/local/lib/libhadoop.so.1.0.0 target/usr/local/lib/libhadoop.so
 
@@ -428,6 +428,6 @@ CMakeFiles/hadoop.dir/clean:
 .PHONY : CMakeFiles/hadoop.dir/clean
 
 CMakeFiles/hadoop.dir/depend:
-	cd /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native /home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/hadoop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native /home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/target/native/CMakeFiles/hadoop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hadoop.dir/depend
 

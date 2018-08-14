@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/Pipes.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/Pipes.hh
 std_string.i
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/std_string.i
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/api/hadoop/std_string.i
 string
 -
 stdint.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc
 hadoop/Pipes.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/hadoop/Pipes.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/hadoop/Pipes.hh
 hadoop/SerialUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/hadoop/SerialUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/hadoop/SerialUtils.hh
 hadoop/StringUtils.hh
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/hadoop/StringUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/hadoop/StringUtils.hh
 map
 -
 vector
@@ -54,13 +54,13 @@ openssl/hmac.h
 openssl/buffer.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/SerialUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/SerialUtils.hh
 string
 -
 stdint.h
 -
 
-/home/kangdw/devel/hadoop-3.0.2-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/StringUtils.hh
+/home/kangdw/devel/hadoop-src/hadoop-tools/hadoop-pipes/src/main/native/utils/api/hadoop/StringUtils.hh
 stdint.h
 -
 string

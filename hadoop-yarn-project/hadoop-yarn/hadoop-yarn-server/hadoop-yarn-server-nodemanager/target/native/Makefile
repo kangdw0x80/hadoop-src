@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src
+CMAKE_SOURCE_DIR = /home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native
+CMAKE_BINARY_DIR = /home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/CMakeFiles /home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/CMakeFiles /home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-3.0.2-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kangdw/devel/hadoop-src/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/target/native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,32 +175,32 @@ gtest/fast:
 	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.o: home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o
+home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.o: home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o
 
-.PHONY : home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.o
+.PHONY : home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.o
 
 # target to build an object file
-home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o:
-	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o
-.PHONY : home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o
+home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o
+.PHONY : home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.o
 
-home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.i: home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i
+home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.i: home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i
 
-.PHONY : home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.i
+.PHONY : home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.i
 
 # target to preprocess a source file
-home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i:
-	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i
-.PHONY : home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i
+home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i
+.PHONY : home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.i
 
-home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.s: home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s
+home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.s: home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s
 
-.PHONY : home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.s
+.PHONY : home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.s
 
 # target to generate assembly for a file
-home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s:
-	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s
-.PHONY : home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s
+home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s
+.PHONY : home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.cc.s
 
 main/native/container-executor/impl/configuration.o: main/native/container-executor/impl/configuration.c.o
 
@@ -761,9 +761,9 @@ help:
 	@echo "... test-container-executor"
 	@echo "... container"
 	@echo "... gtest"
-	@echo "... home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.o"
-	@echo "... home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.i"
-	@echo "... home/kangdw/devel/hadoop-3.0.2-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.s"
+	@echo "... home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.o"
+	@echo "... home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.i"
+	@echo "... home/kangdw/devel/hadoop-src/hadoop-common-project/hadoop-common/src/main/native/gtest/gtest-all.s"
 	@echo "... main/native/container-executor/impl/configuration.o"
 	@echo "... main/native/container-executor/impl/configuration.i"
 	@echo "... main/native/container-executor/impl/configuration.s"
