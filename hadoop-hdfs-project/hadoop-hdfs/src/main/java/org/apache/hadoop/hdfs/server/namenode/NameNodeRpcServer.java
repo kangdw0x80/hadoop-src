@@ -226,7 +226,7 @@ import javax.annotation.Nonnull;
  */
 @InterfaceAudience.Private
 @VisibleForTesting
-public class NameNodeRpcServer implements NamenodeProtocols {
+public class NameNodeRpcServer implements NamenodeProtocols {   //Handle  Namenode  Protocol 
   
   private static final Logger LOG = NameNode.LOG;
   private static final Logger stateChangeLog = NameNode.stateChangeLog;
@@ -264,14 +264,15 @@ public class NameNodeRpcServer implements NamenodeProtocols {
     this.namesystem = nn.getNamesystem();
     this.retryCache = namesystem.getRetryCache();
     this.metrics = NameNode.getNameNodeMetrics();
-
+    
+    //dfs.namenode.handler.count"
     int handlerCount = 
       conf.getInt(DFS_NAMENODE_HANDLER_COUNT_KEY, 
                   DFS_NAMENODE_HANDLER_COUNT_DEFAULT);
 
     RPC.setProtocolEngine(conf, ClientNamenodeProtocolPB.class,
         ProtobufRpcEngine.class);
-
+    //PB : Prrotocol Buffer
     ClientNamenodeProtocolServerSideTranslatorPB 
        clientProtocolServerTranslator = 
          new ClientNamenodeProtocolServerSideTranslatorPB(this);

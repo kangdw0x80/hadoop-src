@@ -1984,7 +1984,8 @@ public class UserGroupInformation {
       }
     }
   }
-
+// https://stackoverflow.com/questions/4989063/what-is-the-meaning-and-difference-between-subject-user-and-principal
+// Subject, Pricipal, User 이렇게 나뉘어서 처리 되는것 같은데.. WAS  수준? JAAS라는게 나오네 
   private void logPrivilegedAction(Subject subject, Object action) {
     if (LOG.isDebugEnabled()) {
       // would be nice if action included a descriptive toString()

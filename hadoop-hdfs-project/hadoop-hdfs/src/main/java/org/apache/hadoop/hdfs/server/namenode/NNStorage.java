@@ -170,9 +170,18 @@ public class NNStorage extends Storage implements Closeable,
   public NNStorage(Configuration conf, 
                    Collection<URI> imageDirs, Collection<URI> editsDirs) 
       throws IOException {
-    super(NodeType.NAME_NODE);
-
+    super(NodeType.NAME_NODE);  // StorageInfo -> Storage -> NNStorage
+            // 객체 생성 
+            /* enum NodeType {
+               NAME_NODE,
+               DATA_NODE,
+               JOURNAL_NODE
+            }
+          */
+    
+    // imageDirs : <value>file:///data1/hadoop/cache/hdfs/name</value>
     // this may modify the editsDirs, so copy before passing in
+    
     setStorageDirectories(imageDirs, 
                           Lists.newArrayList(editsDirs),
                           FSNamesystem.getSharedEditsDirs(conf));
@@ -295,15 +304,22 @@ public class NNStorage extends Storage implements Closeable,
       throws IOException {
     getStorageDirs().clear();
     this.removedStorageDirs.clear();
+// fsNasmeDirs:   file:///data1/hadoop/cache/hdfs/name
+// fsEditsDirs: qjournal://ndap-mn01.mto.com:8485/ndap;
+//              ndap-mn02.mto.com:8485/ndap;
+//              ndap-mn03.mto.com:8485/ndap
+//
 
    // Add all name dirs with appropriate NameNodeDirType
     for (URI dirName : fsNameDirs) {
-      checkSchemeConsistency(dirName);
+      checkSchemeConsistency(dirName);  //
       boolean isAlsoEdits = false;
+     
+      // 중복 되면 하나에서 관리 하는 것으로 추정 됨  
       for (URI editsDirName : fsEditsDirs) {
-        if (editsDirName.compareTo(dirName) == 0) {
+        if (editsDirName.compareTo(dirName) == 0) { // 같으면 
           isAlsoEdits = true;
-          fsEditsDirs.remove(editsDirName);
+          fsEditsDirs.remove(editsDirName); 
           break;
         }
       }
@@ -313,7 +329,9 @@ public class NNStorage extends Storage implements Closeable,
       // Add to the list of storage directories, only if the
       // URI is of type file://
       if(dirName.getScheme().compareTo("file") == 0) {
-        this.addStorageDir(new StorageDirectory(new File(dirName.getPath()),
+          // file://  아마도.. 
+        System.out.println(" kdw: file schema"); 
+          this.addStorageDir(new StorageDirectory(new File(dirName.getPath()),
             dirType,
             sharedEditsDirs.contains(dirName))); // Don't lock the dir if it's shared.
       }
@@ -1128,6 +1146,8 @@ public class NNStorage extends Storage implements Closeable,
     for (Iterator<StorageDirectory> it = dirIterator(); it.hasNext();) {
       StorageDirectory sd = it.next();
       if (!sd.isShared()) {
+          System.oyut.println("kdw : " + sd.getRoot().getAbsolutePath());
+          //getDirectorySize : 누구 기준 ?  Local  기준 
         nnDirSizeMap.put(sd.getRoot().getAbsolutePath(), sd.getDirecorySize());
       }
     }

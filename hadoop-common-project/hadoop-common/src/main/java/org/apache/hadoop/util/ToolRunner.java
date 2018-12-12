@@ -58,12 +58,17 @@ public class ToolRunner {
    * @return exit code of the {@link Tool#run(String[])} method.
    */
   public static int run(Configuration conf, Tool tool, String[] args) 
+      // 애초에 Tool 은 interface, 그럼 어디서 구현 함 ? 
+      // Tool의 경우, Configurable interface를 상속 받음.
+      // 그 안에 setConf 가 있음. 이거 누가 구현 했는지
+      // 근데 왜 interface인데 extends? implements 로 해야 되지 않나? 
+      // interface의 interface가 되는건가 
     throws Exception{
     if (CallerContext.getCurrent() == null) {
       CallerContext ctx = new CallerContext.Builder("CLI").build();
       CallerContext.setCurrent(ctx);
     }
-    
+    // GetConf를 통해 오게 되면, NULL 아님  
     if(conf == null) {
       conf = new Configuration();
     }

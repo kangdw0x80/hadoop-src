@@ -44,7 +44,7 @@ import com.google.common.base.Joiner;
 @InterfaceAudience.Private
 public class StorageInfo {
   public int   layoutVersion;   // layout version of the storage data
-  public int   namespaceID;     // id of the file system
+  public int   namespaceID;     // id of the file system    // NDAP
   public String clusterID;      // id of the cluster
   public long  cTime;           // creation time of the file system state
 

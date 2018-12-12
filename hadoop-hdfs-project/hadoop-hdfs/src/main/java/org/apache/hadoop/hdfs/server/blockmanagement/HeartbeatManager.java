@@ -78,7 +78,8 @@ class HeartbeatManager implements DatanodeStatistics {
     long staleInterval = conf.getLong(
         DFSConfigKeys.DFS_NAMENODE_STALE_DATANODE_INTERVAL_KEY,
         DFSConfigKeys.DFS_NAMENODE_STALE_DATANODE_INTERVAL_DEFAULT);// 30s
-
+    
+    // set heartbeatRecheckInterval = min( staleInterval, recheckInterval)
     if (avoidStaleDataNodesForWrite && staleInterval < recheckInterval) {
       this.heartbeatRecheckInterval = staleInterval;
       LOG.info("Setting heartbeat recheck interval to " + staleInterval

@@ -171,6 +171,7 @@ public class GenericOptionsParser {
   public GenericOptionsParser(Configuration conf,
       Options options, String[] args) throws IOException {
     this.conf = conf;
+    // 여기서 임시(?) 객체가 하나 만들ㅇ러 지는것 같은데? 
     parseSuccessful = parseGeneralOptions(options, args);
   }
 
@@ -517,6 +518,7 @@ public class GenericOptionsParser {
    * @return fixed command line arguments that GnuParser can parse
    */
   private String[] preProcessForWindows(String[] args) {
+      // 윈도우랑 뭐가 다르길래 따로 처리 하지? 
     if (!Shell.WINDOWS) {
       return args;
     }
@@ -561,11 +563,21 @@ public class GenericOptionsParser {
    */
   private boolean parseGeneralOptions(Options opts, String[] args)
       throws IOException {
+      //hadoop 에서 사용하는 option 설정
+  //    opts 에다가 옵션 반영한 Option 객체 추가 해서 집어 넣는다. 
+  //    객체 한 개 당 옵션 반영 하는 구조인가/ 
+  //    엄청 비효율적인거 아닌가 
+  //    일단 GetConf로 들어올 때는 Option 객체는 설정된게 없음 
     opts = buildGeneralOptions(opts);
+    // https://www.tutorialspoint.com/commons_cli/commons_cli_gnu_parser.htm
+    // https://stackoverflow.com/questions/367706/how-do-i-parse-command-line-arguments-in-java
+    // GNU 방식의 parsing
+    // ex ) -p -n 10
     CommandLineParser parser = new GnuParser();
     boolean parsed = false;
     try {
       commandLine = parser.parse(opts, preProcessForWindows(args), true);
+      //System.out.println("kdw: parser, commandLine: "+commandLine
       processGeneralOptions(commandLine);
       parsed = true;
     } catch(ParseException e) {

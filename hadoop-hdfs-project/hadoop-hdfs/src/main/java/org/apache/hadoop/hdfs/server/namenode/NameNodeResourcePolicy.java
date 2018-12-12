@@ -56,6 +56,7 @@ final class NameNodeResourcePolicy {
     for (CheckableNameNodeResource resource : resources) {
       if (!resource.isRequired()) {
         redundantResourceCount++;
+        // isResourceAvailabe에서 duReserved 가 사용 된다 
         if (!resource.isResourceAvailable()) {
           disabledRedundantResourceCount++;
         }
@@ -73,6 +74,7 @@ final class NameNodeResourcePolicy {
       // required resources available.
       return requiredResourceCount > 0;
     } else {
+        // 여기가 문제 있을 경우 
       return redundantResourceCount - disabledRedundantResourceCount >=
           minimumRedundantResources;
     }

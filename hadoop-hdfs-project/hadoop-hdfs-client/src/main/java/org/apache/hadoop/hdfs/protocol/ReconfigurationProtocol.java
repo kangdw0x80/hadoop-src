@@ -42,7 +42,7 @@ public interface ReconfigurationProtocol {
    */
   @Idempotent
   void startReconfiguration() throws IOException;
-
+//  DFSAdmin class 
   /**
    * Get the status of the previously issued reconfig task.
    * @see {@link org.apache.hadoop.conf.ReconfigurationTaskStatus}.

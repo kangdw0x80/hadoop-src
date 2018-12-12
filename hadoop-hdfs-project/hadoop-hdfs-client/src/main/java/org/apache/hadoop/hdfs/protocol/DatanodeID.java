@@ -46,7 +46,10 @@ public class DatanodeID implements Comparable<DatanodeID> {
   private String ipAddr;     // IP address
   private String hostName;   // hostname claimed by datanode
   private String peerHostName; // hostname from the actual connection
-  private int xferPort;      // data streaming port
+  private int xferPort;      // data streaming port // 아마 50010?? 
+         //public static final String  DFS_DATANODE_ADDRESS_KEY = "dfs.datanode.address";
+         // public static final int     DFS_DATANODE_DEFAULT_PORT = 9866;
+ 
   private int infoPort;      // info server port
   private int infoSecurePort; // info server port
   private int ipcPort;       // IPC server port

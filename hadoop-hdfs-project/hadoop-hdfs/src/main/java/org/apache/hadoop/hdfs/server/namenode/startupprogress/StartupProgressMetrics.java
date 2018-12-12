@@ -35,6 +35,8 @@ import org.apache.hadoop.metrics2.lib.DefaultMetricsSystem;
 @InterfaceAudience.Private
 public class StartupProgressMetrics implements MetricsSource {
 
+    // MetricsInfo 는 interface 임. 음.. 이거 자바 문법 체크 
+    // 아마 name에 StartupProgress, Desc에 NameNode startup Progress 를 접근할듯? 아마..
   private static final MetricsInfo STARTUP_PROGRESS_METRICS_INFO =
     info("StartupProgress", "NameNode startup progress");
 

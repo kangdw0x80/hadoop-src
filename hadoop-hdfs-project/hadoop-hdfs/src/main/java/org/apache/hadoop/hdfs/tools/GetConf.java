@@ -343,6 +343,11 @@ public class GetConf extends Configured implements Tool {
     @Override
     public int run(final String[] args) throws Exception {
         try {
+            // UserGroupInformation.getCurrentUser().doAs 메소드 호출, 
+            // 인자로는 PrivilegedExceptionAction <Integer>
+            //      -> 이거는 doWork(args) 를 통해 만들어 짐. 
+            //      https://code.i-harness.com/ko/q/a879e5
+            //      PrivilegedExceptionAction 이 유저에 따른 권한 수행인건데 
             return UserGroupInformation.getCurrentUser().doAs(
                     new PrivilegedExceptionAction<Integer>() {
                         @Override
@@ -376,7 +381,7 @@ public class GetConf extends Configured implements Tool {
          */
         System.out.println("GetConf Class main");
         
-        /**
+        /*
          *  여기서는 new HdfsConfiguration 
          *      -> new Configuration 
          *          -> REGISTRY.put(Configuration)  으로 마무리 
@@ -387,9 +392,40 @@ public class GetConf extends Configured implements Tool {
          *              -> public Configuration(Configuration other) 
          *                  일단 Configuration 객체로 부터 복붙 작업. 
          *                  지금의 경우, HdfsConfiguration 으로 생성된 객체겠지 
+         *                  resource clone
+         *                  sync{
+         *                      properties.clone
+         *                      overlay.clone
+         *                      restrictSystemProps reference
+         *                      updatingResource clone
+         *                      finalParameters clone
+         *                      }
+         *                  sync{ REGISTRY.put }
+         *                  classLoader set
+         *                  loadDefaults set
+         *                  setQuietMode
+         *
          *          ->  this.out = out;
          *          ->  this.err = err;
          *
+         * ToolRunner ( GetConf.getConf(), GetConf, args)
+         *      -> ...
+         *
+         *      -> GetConf.run( String [] args )
+         *
+                protected Options buildGeneralOptions(Options opts) 를 통해 hadoop 에서 사용하는 option 들을 parsing
+                p
+                private void processGeneralOptions(CommandLine line) throws IOException {
+
+                에서 mapreduce.framework.name, yarn.resourcemanager.address, 등의 옵션을 
+                GenericOptionsParser 클래스의 COnfiguration conf 변수에 집어 넣음. 
+
+
+                여튼 여차저차 해서 
+                GetConf->run이 수행 됨 (arguments 는 String[] 으로 처리되서 
+                이는 GetConf 클래스가 interface, Tool을 사용했기 때문이며, 
+                public int run(final String[] args) throws Exception {
+         *  
          */
         int res = ToolRunner.run(new GetConf(new HdfsConfiguration()), args);
         /*

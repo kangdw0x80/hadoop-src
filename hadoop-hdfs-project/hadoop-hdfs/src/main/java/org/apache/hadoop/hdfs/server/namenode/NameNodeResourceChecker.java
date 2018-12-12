@@ -109,7 +109,16 @@ public class NameNodeResourceChecker {
   public NameNodeResourceChecker(Configuration conf) throws IOException {
     this.conf = conf;
     volumes = new HashMap<String, CheckedVolume>();
-
+    
+    //dfs.namenode.resource.du.reserved";  The amount of space to reserve/require for a NameNode storage directory in bytes.  
+    // 1024 * 1024 * 100; // 100 MB
+    // What is namenode storage directory?
+    // local file system 
+    //     <name>dfs.namenode.name.dir</name>
+    //         <value>file:///data1/hadoop/cache/hdfs/name</value>
+    //
+    //https://stackoverflow.com/questions/50231297/how-to-limit-a-disk-usage-on-datanode-without-causing-hadoop-to-enter-safemode
+    // 시스템이 돌아가기 위한 최소한의 공간 보장 
     duReserved = conf.getLong(DFSConfigKeys.DFS_NAMENODE_DU_RESERVED_KEY,
         DFSConfigKeys.DFS_NAMENODE_DU_RESERVED_DEFAULT);
     
@@ -140,7 +149,8 @@ public class NameNodeResourceChecker {
     for (URI extraDirToCheck : extraCheckedVolumes) {
       addDirToCheck(extraDirToCheck, true);
     }
-    
+   // dfs.namenode.resource.checked.volumes.minimum"
+   // public static final int     DFS_NAMENODE_CHECKED_VOLUMES_MINIMUM_DEFAULT = 1;
     minimumRedundantVolumes = conf.getInt(
         DFSConfigKeys.DFS_NAMENODE_CHECKED_VOLUMES_MINIMUM_KEY,
         DFSConfigKeys.DFS_NAMENODE_CHECKED_VOLUMES_MINIMUM_DEFAULT);
@@ -178,6 +188,7 @@ public class NameNodeResourceChecker {
    *         otherwise.
    */
   public boolean hasAvailableDiskSpace() {
+      //volumes : private final CopyOnWriteArrayList<FsVolumeImpl> volumes =
     return NameNodeResourcePolicy.areResourcesAvailable(volumes.values(),
         minimumRedundantVolumes);
   }

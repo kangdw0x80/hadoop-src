@@ -64,7 +64,7 @@ public interface HAServiceProtocol {
       return name;
     }
   }
-  
+ //User or Zookeeper, or User Force 
   public enum RequestSource {
     REQUEST_BY_USER,
     REQUEST_BY_USER_FORCED,

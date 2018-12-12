@@ -775,37 +775,22 @@ public class Configuration implements Iterable<Map.Entry<String,String>>,
             */
            public Configuration(boolean loadDefaults) {
                this.loadDefaults = loadDefaults;
-               /** 
-                *  Configuration.class : Configuration 클래스의 정보를 담고 있는 객체
-                *  http://joont.tistory.com/165
-                *  
-                *  syncchronized : https://stackoverflow.com/questions/2056243/java-synchronized-block-for-class
-                *  대략 보면.. synchronized는 객체 혹은 클래스에 걸 수 있음. 
-                *
-                *  이 경우는 
-                *  public static Configuration(boolean loadDefaults)와 동급, 
-                *  예상해보건데, 생성자 자체에 락을 걸고 해당 생성자의 exclusive area를 잡은듯? 근데 굳이 왜? 아마 
-                *  REGISTRY.put 때문으로 예상해 볼 수 있음 
-                *
-                *
-                *   private static final WeakHashMap<Configuration,Object> REGISTRY = 
-                *   new WeakHashMap<Configuration,Object>();
-                *
-                *   대략 해쉬맵의 일종으로 보이며, Configuratinon 객체(?)와 다른 object들의 해시맵으로 보임. 
-                *   그럼 예상을 해 보건데, 
-                *
-                *   1. Configuration 인스턴스가 생성되면(GetConf, GdfsConfiguration등)  객체가 만들어 지고, 이메소드 호출이 되겠지. 
-                *   2. lock을 걸고
-                *       3. REGISTRY를 걸건데 weakhashmap이다 보니, 꼬일 까봐 락 걸은듯? 
-                *   4. put 했으면 락 풀리고
-                *
-                *   이 구조로 보임 
-                *
-                *   재미난게 WeakReference로 보이는데 
-                *   http://tourspace.tistory.com/42 에 가면 Strong, soft, weak, phantom reference에 대한 내용이 정리되어 있음. 흐음.. 신박하네 
+               
+               /**
+                *   Configuration.class : Configuration 클래스의 정보를 담고 있는 객체
+                *   http://joont.tistory.com/165
+                *   synchronized : https://stackoverflow.com/questions/2056243/java-synchronized-block-for-class
+                *   대략 보면.. synchronized는 객체 혹은 클래스에 걸 수 있음. 
                 */
                synchronized(Configuration.class) {
-                   REGISTRY.put(this, null);        // Simple하게 생각하자. Configuration 클래스를 hashmap으로 관리 하는데 weak reference가 되면 GC가 해당 객체를 날린다.
+                  /**
+                   * REGISTRY : WeakhashMap
+                   * http://tourspace.tistory.com/42 에 가면 Strong, soft, weak, phantom reference에 대한 내용이 정리되어 있음. 흐음.. 신박하네 
+                   * 이 경우는  public static Configuration(boolean loadDefaults)와 동급, 
+                   * 예상해보건데, 생성자 자체에 락을 걸고 해당 생성자의 exclusive area를 잡은듯? 근데 굳이 왜? 아마 
+                   * REGISTRY.put 때문으로 예상해 볼 수 있음 
+                   */
+                  REGISTRY.put(this, null);        // Simple하게 생각하자. Configuration 클래스를 hashmap으로 관리 하는데 weak reference가 되면 GC가 해당 객체를 날린다.
                }
            }
 
@@ -822,7 +807,8 @@ public class Configuration implements Iterable<Map.Entry<String,String>>,
                        this.properties = (Properties)other.properties.clone();
                    }
 
-                   if (other.overlay!=null) {
+                   if (other.overlay!=null) {   
+                       // overlay : class Properties
                        this.overlay = (Properties)other.overlay.clone();
                    }
 
@@ -839,6 +825,9 @@ public class Configuration implements Iterable<Map.Entry<String,String>>,
                synchronized(Configuration.class) {
                    REGISTRY.put(this, null);
                }
+
+               // 왜setClassLoader 메소드 사용 안하지? 
+               // 상속받은 측에서 사용하려고 하는듯. 
                this.classLoader = other.classLoader;
                this.loadDefaults = other.loadDefaults;
                setQuietMode(other.getQuietMode());
@@ -865,7 +854,10 @@ public class Configuration implements Iterable<Map.Entry<String,String>>,
            public static synchronized void addDefaultResource(String name) {
                if(!defaultResources.contains(name)) {
                    System.out.println("kdw : add resource name: " + name);
+                   // CopyOnWrite
+                   // private static final CopyOnWriteArrayList<String> defaultResources = new CopyOnWriteArrayList<String>();
                    defaultResources.add(name);
+                   //keyset : Hashmap에 저장된 모든 키셋을 반환 
                    for(Configuration conf : REGISTRY.keySet()) {
                        if(conf.loadDefaults) {
                            conf.reloadConfiguration();
@@ -998,6 +990,8 @@ public class Configuration implements Iterable<Map.Entry<String,String>>,
             * via set methods will overlay values read from the resources.
             */
            public synchronized void reloadConfiguration() {
+
+              //private Properties properties;
                properties = null;                            // trigger reload
                finalParameters.clear();                      // clear site-limits
            }

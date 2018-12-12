@@ -33,7 +33,8 @@ import org.apache.hadoop.security.KerberosInfo;
     clientPrincipal = DFSConfigKeys.DFS_DATANODE_KERBEROS_PRINCIPAL_KEY)
 @InterfaceAudience.Private
 public interface DatanodeLifelineProtocol {
-
+    // Lifeline : like Heartbeat message, 핫빗 보낼 때 같이 보낸다.?? 
+    // lifeline : 구명밧줄, 생명선 이란 뜻을 가지고 있음 
   @Idempotent
   void sendLifeline(DatanodeRegistration registration, StorageReport[] reports,
       long dnCacheCapacity, long dnCacheUsed, int xmitsInProgress,

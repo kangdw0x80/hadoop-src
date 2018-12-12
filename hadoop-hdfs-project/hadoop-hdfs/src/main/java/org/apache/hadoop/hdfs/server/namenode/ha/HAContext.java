@@ -29,7 +29,7 @@ import org.apache.hadoop.ipc.StandbyException;
  * current state and performing required operations.
  */
 @InterfaceAudience.Private
-public interface HAContext {
+public interface HAContext {  
   /** Set the state of the context to given {@code state} */
   public void setState(HAState state);
   
